@@ -3,6 +3,10 @@ resource_group_p = {
     name     = "rg_preprod"
     location = "EAST US"
   }
+  rg2 = {
+    name     = "rg2_stagging"
+    location = "EAST US"
+  }
 }
 
 storage_account_p = {
