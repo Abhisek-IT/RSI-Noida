@@ -12,8 +12,8 @@ resource_group_p = {
 storage_account_p = {
     strg1={
        name="sapreprod4050"
-  resource_group_name =resource_group_name.name 
-  location = resource_group_name.location
+  resource_group_name ="rg_preprod"
+  location = "EAST US"
   account_tier = "Standard"
   account_replication_type = "LRS"
     }
