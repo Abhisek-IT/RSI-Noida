@@ -18,3 +18,12 @@ storage_account_p = {
   account_replication_type = "LRS"
     }
 }
+
+vnets = {
+  vnet1 = {
+    name                = "sh1vnet"
+    location            = "EAST US"
+    resource_group_name = "rg_preprod"
+    address_space       = ["10.0.0.0/16"]
+  }
+}
