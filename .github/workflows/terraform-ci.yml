@@ -25,7 +25,7 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      - name: Terraform FMT
+      - name: Terraform fmt
         run: terraform fmt -check -recursive
 
       - name: Terraform Plan
